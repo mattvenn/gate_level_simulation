@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Jan 22 15:17:10 2021
+[*]
+[dumpfile] "/home/matt/work/asic-workshop/gate_level_simulation/wrapper.vcd"
+[dumpfile_mtime] "Fri Jan 22 15:14:54 2021"
+[dumpfile_size] 2399912
+[savefile] "/home/matt/work/asic-workshop/gate_level_simulation/wrapper.gtkw"
+[timestart] 0
+[size] 1679 832
+[pos] -1 -1
+*-18.000000 181000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] wrapper.
+[sst_width] 312
+[signals_width] 409
+[sst_expanded] 1
+[sst_vpaned_height] 227
+@28
+wrapper.VPWR
+wrapper.VGND
+@23
+wrapper.la_data_in[31:0]
+@28
+wrapper.wb_clk_i
+@800022
+wrapper.io_out[37:0]
+@28
+(23)wrapper.io_out[37:0]
+(24)wrapper.io_out[37:0]
+(25)wrapper.io_out[37:0]
+(26)wrapper.io_out[37:0]
+(27)wrapper.io_out[37:0]
+(28)wrapper.io_out[37:0]
+(29)wrapper.io_out[37:0]
+@1001200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
