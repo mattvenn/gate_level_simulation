@@ -21,7 +21,7 @@ async def test_tri(dut):
     cocotb.fork(clock.start())
     dut.VGND <= 0
     dut.VPWR <= 1
-    dut.active <= 1
+    dut.active <= 0 # outputs tristated to start with
 
     dut.wb_rst_i <= 1
     await ClockCycles(dut.wb_clk_i, 5)
@@ -32,5 +32,6 @@ async def test_tri(dut):
 
     # activate proj0
     await activate_project(dut, 0, 1)
+    dut.active <= 1 # turn on outputs
 
     await ClockCycles(dut.wb_clk_i, 100)
