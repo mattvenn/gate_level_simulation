@@ -21,7 +21,9 @@ For your own simulations using the open PDK you'll need to add these lines to yo
     `include "libs.ref/sky130_fd_sc_hd/verilog/primitives.v"
     `include "libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd.v"
 
-If you have an issue with syntax errors in the behavioural Verilog, it's most likely due to these bugs:
+# Note on syntax issues for MPW1.
+
+Fixed in MPW2, but for posterity: in the PDK for MPW1 there were syntax errors in the behavioural Verilog, due to these bugs:
 
 * https://github.com/google/skywater-pdk/issues/297
 * https://github.com/google/skywater-pdk/issues/292
